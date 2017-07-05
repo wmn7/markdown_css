@@ -1,16 +1,20 @@
 body {
 	line-height: 1.4em;
 	color: black;
-        padding:1em;
-        margin:auto;
-        max-width:42em;
+    padding:1em;
+    margin:auto;
+    max-width:42em;
     padding: 30px;
+    font-family: Microsoft YaHei;
+    font-size: 20px;
+    background:#fefefe;
 }
 
 li {
 	color: black;
 }
 
+/*保证图片居中*/
 img{
 max-width:95%;
 margin-left: auto; 
@@ -27,38 +31,62 @@ h6 {
     border: 0 none !important;
 }
 
-h1 {    
+h1 {
+    font-size: 33px;
+    font-weight: bold;    
     text-align: center !important;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    border-bottom: 2px solid #000080 !important;
+    border-bottom: 3px solid #CCCCCC !important;
 }
 
 h2 {
+    font-size: 30px;
     margin-top: 1em;
     margin-bottom: 0.5em;    
-	border-bottom: 2px solid #000080 !important;    
+	border-bottom: 2px solid #CCCCCC !important;    
+    /*这个是在h1,h2下添加蓝色的下划线*/
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;    
+	border-bottom: 1px solid #CCCCCC !important;    
+    /*这个是在h3下添加灰色的下划线*/
+}
+
+h4 {
+	font-size: 19px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	color: #777777;
+	background-color: inherit;
+	font-size: 14px;
 }
 
 pre {
-	background-color: #f8f8f8;    
-    border: 1px solid #2f6fab;
-    border-radius: 3px;
-    overflow: auto;
-    padding: 5px;
-}
+   background-color: #f8f8f8;
+   border: 2px solid #CCCCCC;
+   font-size: 13px;
+   line-height: 19px;
+   overflow: auto;
+   padding: 6px 10px;
+   border-radius: 3px; }
+pre code, pre tt {
+   background-color: transparent;
+   border: none ; }
 
-pre code {
-    background-color: inherit;
-    border: none;    
-    padding: 0;
-}
-
+/*引用的地方的特点*/
 code {
-	background-color: #ffffe0;
-    border: 1px solid orange;
+	background-color:#FFFF00;
     border-radius: 3px;
-    padding: 0 0.2em;
+    padding: 1px 3px;
 }
 
 a {
