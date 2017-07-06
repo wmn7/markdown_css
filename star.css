@@ -6,7 +6,7 @@ body {
     max-width:42em;
     padding: 30px;
     font-family: Microsoft YaHei;
-    font-size: 20px;
+    font-size: 16px;
     background:#fefefe;
 }
 
@@ -79,12 +79,15 @@ pre {
    padding: 6px 10px;
    border-radius: 3px; }
 pre code, pre tt {
+   line-height:27px;/*调整行间距*/
+   font-weight: bold;
    background-color: transparent;
    border: none ; }
 
 /*引用的地方的特点*/
 code {
-	background-color:#FFFF00;
+    font-size: 1.2em;
+    background-color:#FFFF00;
     border-radius: 3px;
     padding: 1px 3px;
 }
